@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup ROS
-        uses: ros-tooling/setup-ros@v0.7
+        uses: taka-kazu/setup-ros@pin-empy
         with:
           required-ros-distributions: noetic
       - name: Build
