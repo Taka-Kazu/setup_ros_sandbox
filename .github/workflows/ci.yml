@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup ROS
-        uses: taka-kazu/setup-ros@bump-colcon-and-pin-empy
+        uses: taka-kazu/setup-ros@bump-colcon-core-and-pin-empy
         with:
           required-ros-distributions: humble
       - name: Build
